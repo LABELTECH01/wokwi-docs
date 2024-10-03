@@ -25,8 +25,8 @@ import DotMatrixChain4 from './wokwi-max7219-matrix-chain-4.svg';
 
 | Name   | Description                                  | Default value |
 | ------ | -------------------------------------------- | ------------- |
-| chain  | How many units to chain together             | "1"           |
-| color  | LED color (when lit)                         | "red"         |
+| chain  | How many units to chain together             | "64"           |
+| color  | LED color (when lit)                         | "green"         |
 | layout | Matrix connection layout: "parola" or "fc16" | "parola"      |
 
 ### Chaining
@@ -49,7 +49,7 @@ Choosing the wrong layout will cause your text / drawing to be rotated and / or 
 | Result                                           | Attrs                  |
 | ------------------------------------------------ | ---------------------- |
 | <DotMatrix style={{'--pixel-color': 'green'}} /> | `{ "color": "green" }` |
-| <DotMatrixChain4/>                               | `{ "chain": "4" }`     |
+| <DotMatrixChain4/>                               | `{ "chain": "8" }`     |
 
 ## Simulator examples
 
